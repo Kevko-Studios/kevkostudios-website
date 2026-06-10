@@ -3,116 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevko Studios</title>
+    <title>Kuitar - Guitar Practice Platform</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header">
-    <div class="logo"><span>♪</span> Kevko Studios</div>
+<header class="site-header">
+
+    <div class="brand">
+        <img src="kevko.png" alt="Kevko Studios">
+
+        <div>
+            <div class="brand-text">KEVKO</div>
+            <div class="brand-sub">STUDIOS</div>
+        </div>
+    </div>
+
     <nav class="nav">
-        <a href="#kuitar">Kuitar</a>
+        <a href="#features">Features</a>
         <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="privacy.html">Privacy</a>
         <a href="imprint.html">Imprint</a>
     </nav>
+
 </header>
 
-<section class="hero" id="kuitar">
-    <div>
-        <h1>Kevko Studios</h1>
+<section class="hero">
+
+    <div class="hero-copy">
+
+        <img class="kuitar-logo"
+             src="kuitar_logo.png"
+             alt="Kuitar Logo">
+
+        <h1>KUITAR</h1>
+
+        <div class="red-line"></div>
+
+        <h2>Guitar Practice Platform</h2>
+
         <p>
-            Independent software development for learning and creativity.
+            Practice guitar more efficiently with powerful learning tools,
+            interactive fretboard visualizations and training features.
         </p>
 
-        <h2 class="highlight">Kuitar</h2>
-        <p>
-            A guitar learning and practice app with tuner, chords, scales,
-            fretboard tools, note finder and metronome.
-        </p>
-
-        <a class="cta" href="#features">Learn more about Kuitar →</a>
-    </div>
-
-    <div class="hero-visual">
-        <div class="phone">
-            <h3>Tuner</h3>
-            <div class="note">E₂</div>
-            <div style="text-align:center;color:#c6d3ea;">Too low</div>
-            <div class="tuner-line"></div>
-
-            <div class="mini-card">
-                <strong>Chord Library</strong>
-                <p style="color:#c6d3ea;margin-bottom:0;">
-                    Browse chords, scales and fretboard patterns.
-                </p>
-            </div>
+        <div class="feature-dots">
+            Practice <span>•</span>
+            Theory <span>•</span>
+            Tools <span>•</span>
+            Free
         </div>
+
+        <div class="cta-row">
+            <a class="cta" href="#features">
+                Explore Features
+            </a>
+
+            <a class="cta secondary" href="support.html">
+                Support
+            </a>
+        </div>
+
     </div>
+
+    <div class="hero-shot">
+        <img src="screen1.png" alt="Kuitar Main Menu">
+    </div>
+
 </section>
 
-<section class="section" id="features">
-    <h2>Built for guitar players</h2>
+<section id="features" class="section">
 
-    <div class="cards">
-        <div class="card">
-            <div class="icon">𝄞</div>
-            <h3>Accurate Tuner</h3>
-            <p>Use your microphone to tune your guitar quickly and precisely.</p>
+    <h2 class="section-title">Everything You Need To Practice Guitar</h2>
+    <div class="section-line"></div>
+
+    <div class="pill-grid">
+
+        <div class="pill practice">
+            <div class="pill-icon">🎯</div>
+            <h3>Practice</h3>
+            <p>
+                Interactive training tools designed to improve fretboard
+                knowledge and note recognition.
+            </p>
         </div>
 
-        <div class="card">
-            <div class="icon">▦</div>
-            <h3>Chord Library</h3>
-            <p>Explore chords with diagrams and finger positions.</p>
+        <div class="pill theory">
+            <div class="pill-icon">📚</div>
+            <h3>Theory</h3>
+            <p>
+                Explore scales, chords and fretboard structures
+                visually.
+            </p>
         </div>
 
-        <div class="card">
-            <div class="icon">◎</div>
+        <div class="pill tools">
+            <div class="pill-icon">🔧</div>
+            <h3>Tools</h3>
+            <p>
+                Practical utilities such as the integrated tuner.
+            </p>
+        </div>
+
+        <div class="pill free">
+            <div class="pill-icon">⭐</div>
+            <h3>Free</h3>
+            <p>
+                Core functionality available free of charge.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="screenshot-section">
+
+        <div class="screenshot-text">
+            <h3>Tuner</h3>
+
+            <p>
+                Tune your guitar quickly and accurately with the
+                integrated tuning tool.
+            </p>
+        </div>
+
+        <div class="shot-card glow-blue">
+            <img src="screen2.png" alt="Tuner">
+        </div>
+
+    </div>
+
+    <div class="screenshot-section reverse">
+
+        <div class="shot-card glow-purple">
+            <img src="screen3.png" alt="Scale Viewer">
+        </div>
+
+        <div class="screenshot-text">
             <h3>Scale Viewer</h3>
-            <p>Learn scales and understand notes across the fretboard.</p>
+
+            <p>
+                Visualize scales directly on the fretboard and learn
+                interval relationships faster.
+            </p>
         </div>
 
-        <div class="card">
-            <div class="icon">♩</div>
-            <h3>Metronome</h3>
-            <p>Practice timing, rhythm and consistency with a built-in metronome.</p>
-        </div>
     </div>
 
-    <div class="download-box">
-        <div>
-            <h2>Ready to improve your playing?</h2>
-            <p>Kuitar is being prepared for release on Google Play.</p>
+    <div class="screenshot-section">
+
+        <div class="screenshot-text">
+            <h3>CAGED System</h3>
+
+            <p>
+                Understand fretboard structure through connected
+                chord shapes and scale patterns.
+            </p>
         </div>
-        <a class="cta" href="support.html">Contact Support</a>
+
+        <div class="shot-card glow-purple">
+            <img src="screen4.png" alt="CAGED System">
+        </div>
+
     </div>
+
+    <div class="screenshot-section reverse">
+
+        <div class="shot-card glow-green">
+            <img src="screen5.png" alt="Note Finder">
+        </div>
+
+        <div class="screenshot-text">
+            <h3>Note Finder</h3>
+
+            <p>
+                Train note recognition and build fretboard awareness
+                through interactive exercises.
+            </p>
+        </div>
+
+    </div>
+
 </section>
 
 <footer class="footer">
+
     <div>
-        <strong>Kevko Studios</strong>
-        <p>Independent software development for learning and creativity.</p>
+
+        <div class="footer-logo">
+            <img src="kevko.png" alt="Kevko Studios">
+            <strong>Kevko Studios</strong>
+        </div>
+
+        <p>
+            Independent software development focused on practical
+            learning applications.
+        </p>
+
     </div>
 
     <div>
-        <strong>Navigation</strong>
-        <a href="#kuitar">Kuitar</a>
+        <strong>Kuitar</strong>
+
+        <a href="#features">Features</a>
         <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="imprint.html">Imprint</a>
-    </div>
-
-    <div>
-        <strong>Support</strong>
-        <p>support@kevkostudios.de</p>
     </div>
 
     <div>
         <strong>Legal</strong>
+
         <a href="privacy.html">Privacy Policy</a>
         <a href="imprint.html">Imprint</a>
     </div>
+
+    <div>
+        <strong>Contact</strong>
+
+        <a href="mailto:support@kevkostudios.de">
+            support@kevkostudios.de
+        </a>
+    </div>
+
 </footer>
 
 </body>
