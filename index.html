@@ -4,92 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevko Studios</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111827;
-            color: white;
-        }
-
-        header {
-            padding: 20px 40px;
-            border-bottom: 1px solid #2d3748;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .hero h2 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 20px;
-            color: #cbd5e1;
-            max-width: 700px;
-            margin: auto;
-        }
-
-        .buttons {
-            margin-top: 40px;
-        }
-
-        .buttons a {
-            display: inline-block;
-            padding: 14px 24px;
-            margin: 10px;
-            text-decoration: none;
-            color: white;
-            background: #2563eb;
-            border-radius: 10px;
-        }
-
-        .buttons a:hover {
-            background: #1d4ed8;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            border-top: 1px solid #2d3748;
-            color: #94a3b8;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Kevko Studios</h1>
+<header class="header">
+    <div class="logo"><span>♪</span> Kevko Studios</div>
+    <nav class="nav">
+        <a href="#kuitar">Kuitar</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="imprint.html">Imprint</a>
+    </nav>
 </header>
 
-<section class="hero">
-    <h2>Independent Software Development</h2>
+<section class="hero" id="kuitar">
+    <div>
+        <h1>Kevko Studios</h1>
+        <p>
+            Independent software development for learning and creativity.
+        </p>
 
-    <p>
-        Creating practical tools and learning applications.
-        Our first project is Kuitar, a guitar learning and practice app.
-    </p>
+        <h2 class="highlight">Kuitar</h2>
+        <p>
+            A guitar learning and practice app with tuner, chords, scales,
+            fretboard tools, note finder and metronome.
+        </p>
 
-    <div class="buttons">
-        <a href="#">Kuitar</a>
+        <a class="cta" href="#features">Learn more about Kuitar →</a>
+    </div>
+
+    <div class="hero-visual">
+        <div class="phone">
+            <h3>Tuner</h3>
+            <div class="note">E₂</div>
+            <div style="text-align:center;color:#c6d3ea;">Too low</div>
+            <div class="tuner-line"></div>
+
+            <div class="mini-card">
+                <strong>Chord Library</strong>
+                <p style="color:#c6d3ea;margin-bottom:0;">
+                    Browse chords, scales and fretboard patterns.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="features">
+    <h2>Built for guitar players</h2>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">𝄞</div>
+            <h3>Accurate Tuner</h3>
+            <p>Use your microphone to tune your guitar quickly and precisely.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">▦</div>
+            <h3>Chord Library</h3>
+            <p>Explore chords with diagrams and finger positions.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">◎</div>
+            <h3>Scale Viewer</h3>
+            <p>Learn scales and understand notes across the fretboard.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">♩</div>
+            <h3>Metronome</h3>
+            <p>Practice timing, rhythm and consistency with a built-in metronome.</p>
+        </div>
+    </div>
+
+    <div class="download-box">
+        <div>
+            <h2>Ready to improve your playing?</h2>
+            <p>Kuitar is being prepared for release on Google Play.</p>
+        </div>
+        <a class="cta" href="support.html">Contact Support</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div>
+        <strong>Kevko Studios</strong>
+        <p>Independent software development for learning and creativity.</p>
+    </div>
+
+    <div>
+        <strong>Navigation</strong>
+        <a href="#kuitar">Kuitar</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="imprint.html">Imprint</a>
     </div>
-</section>
 
-<footer>
-    © 2026 Kevko Studios
+    <div>
+        <strong>Support</strong>
+        <p>support@kevkostudios.de</p>
+    </div>
+
+    <div>
+        <strong>Legal</strong>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="imprint.html">Imprint</a>
+    </div>
 </footer>
 
 </body>
